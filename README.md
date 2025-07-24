@@ -1,9 +1,9 @@
-NLP-Product Powered Analyzer + Sentiment Clustering
+# NLP-Product Powered Analyzer + Sentiment Clustering
 
 This is an NLP-powered project that analyzes customer reviews and groups them into meaningful
  sentiment clusters using Kmeans and TF-IDF.
 
-FEATURES
+# FEATURES
 -Text Processing and Cleaning.
 -Tokenization, Stopwording and Lemmatization
 -TF-IDF vectorization
@@ -11,10 +11,10 @@ FEATURES
 -Sentiment Grouping
 -Visualization with Matplotlib
 
-RESULTS
+# RESULTS
 -After running the python file, the model displays similar reviews together based on sentiment and also gives clear terms described in each cluster.
 
-TECH-STACK
+# TECH-STACK
 -Python
 -Scikit-learn
 -Natural Language Processing(NLP)
@@ -22,5 +22,5 @@ TECH-STACK
 -Numpy
 -Matplotlib
 
-AUTHOR
+# AUTHOR
 Miano Lewis a.k.a Lincoln

@@ -86,3 +86,10 @@ plt.title("Product Review Clusters")
 plt.xlabel("PCA 1")
 plt.ylabel("PCA 2")
 plt.show()
+
+import joblib
+# Save the model and vectorizer
+joblib.dump(model, 'kmeans_model.pkl')
+print("Model saved as kmeans_model.pkl")
+joblib.dump(vectorizer, 'tfidf_vectorizer.pkl')
+print("Vectorizer saved as tfidf_vectorizer.pkl")
